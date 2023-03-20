@@ -1,11 +1,5 @@
-<!-- <div class="tirelire">
-    <h2>Tirelire</h2>
-    <button>Dépenser les {{valeur}} Fr</button>
-</div> -->
-
 <div class="tirelire">
     <p>Tirelire numéro {{numero}}.</p>
     <p>Il y a {{valeur}} fr dedans</p>
-    <button [disabled]="valeur === 0" (click)="depense()">Utiliser les {{valeur}}</button>
-   
+    <button [disabled]="valeur === 0" (click)="depenser()">Utiliser les {{valeur}}</button>   
 </div>

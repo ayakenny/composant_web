@@ -23,7 +23,7 @@ export class BoiteComponent {
       this.tirelire_3 += 100;
       break;
     }
-
+  }
     depenser(numeroTirelire: number) {
       switch (numeroTirelire) {
         case 1:
@@ -38,4 +38,3 @@ export class BoiteComponent {
       }
     }
 }
-
