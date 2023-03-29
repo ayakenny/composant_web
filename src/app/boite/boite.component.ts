@@ -28,13 +28,13 @@ export class BoiteComponent {
     let numeroTirelire = Math.floor(Math.random()*3)+1;
     switch (numeroTirelire) {
       case 1:
-      this.tirelire_1 += 100;
+        this.tirelire_1 += 100;
       break;
       case 2:
-      this.tirelire_2 += 100;
+        this.tirelire_2 += 100;
       break;
       case 3:
-      this.tirelire_3 += 100;
+        this.tirelire_3 += 100;
       break;
     }
   }
